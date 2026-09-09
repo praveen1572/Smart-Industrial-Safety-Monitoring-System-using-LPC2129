@@ -1,0 +1,23 @@
+#include<lpc21xx.h>
+extern float temp;
+extern unsigned int a,b,c;
+void delay_sec(unsigned int sec);
+void delay_ms(unsigned int ms);
+void lcd_data(unsigned int data);
+void lcd_cmd(unsigned int cmd);
+void lcd_init(void);
+void lcd_string(char *ptr);
+void lcd_integer(int num);
+void lcd_float(float f);
+void adc_init(void);
+int adc_read(unsigned int channel);
+void uart0_tx_string(char *p);
+void uart0_init(unsigned int baud);
+void uart0_tx(unsigned int data);
+void uart0_integer(int num);
+void uart0_float(float f);
+float get_temp(void);
+unsigned int tempcheck(float temp);
+unsigned int pir_check(void);
+unsigned int flame_check(void);
+void uart_print_status(void);
