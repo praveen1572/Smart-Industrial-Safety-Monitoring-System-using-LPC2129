@@ -12,3 +12,8 @@
 *.uvopt
 *.uvoptx
 *.uvguix.*
+*.axf
+*.sct
+*.uvgui.*
+*.uvproj
+*.dep

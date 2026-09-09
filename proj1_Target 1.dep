@@ -1,21 +1,0 @@
-Dependencies for Project 'proj1', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\adc_driver.c)(0x6AA15FCE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\adc_driver.o --omf_browse .\adc_driver.crf --depend .\adc_driver.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\delay.c)(0x6AA15E3E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\driver.c)(0x6AA15FE6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\driver.o --omf_browse .\driver.crf --depend .\driver.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\lcd_4bit_driver.c)(0x6AA15E3D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_4bit_driver.o --omf_browse .\lcd_4bit_driver.crf --depend .\lcd_4bit_driver.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\main.c)(0x6AA15E3D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\uart_driver.c)(0x6AA16084)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\uart_driver.o --omf_browse .\uart_driver.crf --depend .\uart_driver.d)
-I (header.h)(0x6AA160FE)
-I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-F (.\header.h)(0x6AA160FE)()
