@@ -1,0 +1,19 @@
+#include"header.h"
+void delay_sec(unsigned int sec){
+T0PR=14999999;
+T0TC=0;
+T0PC=0;
+T0TCR=2;
+T0TCR=1;
+while(T0TC<sec);
+T0TCR=0;
+}
+void delay_ms(unsigned int ms){
+T0PR=14999;
+T0TC=0;
+T0PC=0;
+T0TCR=2;
+T0TCR=1;
+while(T0TC<ms);
+T0TCR=0;
+}
